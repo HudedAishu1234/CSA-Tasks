@@ -1,0 +1,36 @@
+h1{
+    text-align: center;
+}
+
+#container h1{
+
+    color: rgb(146, 91, 119);
+
+}
+
+#technology p{
+    color: rgb(215, 205, 208);
+    background-color: rgb(145, 26, 111);
+    font-size: 20px;
+    line-height: 25px
+
+}
+
+
+#educatonal_technology > p{
+    color: rgb(108, 7, 78);
+}
+
+#educatonal_technology > h1{
+    color: rgb(134, 36, 92);
+}   
+
+#beauty_products + h1{
+    color: rgb(149, 56, 96);
+}
+
+
+#online_marketing ~ h1{
+    color: rgb(173, 118, 118);
+}
+
