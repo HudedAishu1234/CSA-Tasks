@@ -1,0 +1,11 @@
+.flex-item {
+    flex-grow: 1; /* default is 0 */
+}
+
+.flex-item {
+    align-self: center; /* other values: flex-start, flex-end, baseline, stretch */
+}
+
+.flex-item {
+    align-self: center; /* other values: flex-start, flex-end, baseline, stretch */
+}
