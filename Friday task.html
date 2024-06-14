@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Functionalities</title>
+    <link rel="stylesheet" href="Friday task.css">
+</head>
+<body>
+    <div>
+        <h1>JS PROPERTIES</h1>
+    </div>
+
+
+    <div id="content">Original Content</div>
+    <button id="changeContentButton">Change Content</button>
+  
+    <script>
+      document.getElementById("changeContentButton").addEventListener("click", function() {
+        let contentDiv = document.getElementById("content");
+        contentDiv.innerHTML = "Content Changed!";
+        contentDiv.style.color = "purple";
+        contentDiv.style.fontSize = "20px";
+        contentDiv.style.backgroundColor = "pink";
+      });
+    </script>
+
+     <script src="Friday task.js"></script>
+</body>
+</html>
