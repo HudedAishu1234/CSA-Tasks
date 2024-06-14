@@ -1,0 +1,110 @@
+div{
+    text-align: center;
+}
+
+#heading{
+    color: rgb(204, 114, 114);
+}
+
+#para{
+    color: rgb(156, 17, 124);
+}
+
+
+.para{
+    color: rgb(229, 129, 187);
+    background-color: black;
+}
+
+
+#container{
+    height: 150px;
+    /* width: 150px; */
+    background-color: rgb(180, 124, 157);
+
+    /* min-width: 50px; */
+    max-width: 600px;
+
+}
+
+#container2{
+
+    height: 150px;
+    width: 800px;
+    background-color: rgb(255, 141, 196);
+    margin-top: 10px;
+}
+
+
+
+ @media print and (orientation: portrait){ 
+    
+    #heading{
+        color: rgb(243, 154, 206);
+        border: 2px solid black;
+    }
+
+    #para{
+        color: rgb(170, 96, 148);
+        font-size: 60px;
+    }
+    
+
+    .para{
+        color: rgb(198, 43, 128);
+        font-size: 100px;
+    }
+    
+} 
+
+
+@media screen and (max-width: 480px){
+
+    #heading{
+        color: rgb(163, 115, 120);
+        background-color: black;
+    }
+
+    #para{
+        color: rgb(173, 85, 161);
+        text-shadow: 5px 6px 5px black;
+    }
+
+    .para{
+        color: rgb(206, 79, 151);
+    }
+
+    #container, #container2{
+        background-color: rgb(164, 48, 123);
+        height: 150px;
+        width: 150px;
+    }
+    
+}
+
+
+
+@media screen and (min-width: 481px) and (max-width: 768px){
+    #heading{
+        color: rgb(143, 3, 112);
+        background-color: rgb(190, 97, 162);
+    }
+
+    #para{
+        color: rgb(195, 100, 209);
+        text-shadow: 5px 6px 5px rgb(232, 152, 152);
+    }
+
+    .para{
+        color: rgb(200, 96, 134);
+        font-size: 60px;
+    }
+
+    #container, #container2{
+        background-color: rgb(67, 24, 56);
+        height: 150px;
+        width: 150px;
+    }
+}
+
+ 
