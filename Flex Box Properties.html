@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox Example</title>
+    <link rel="stylesheet" href="Flex Box Properties.css">
+    <style>
+        .container {
+            display: flex;
+            background-color: lightgray;
+            height: 100vh;
+        }
+        .flex-item {
+            background-color: coral;
+            padding: 10px;
+            margin: 5px;
+            color: white;
+        }
+        .grow {
+            flex-grow: 2;
+        }
+        .shrink {
+            flex-shrink: 2;
+        }
+        .align-self {
+            align-self: flex-end;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="flex-item grow">Grow 2</div>
+        <div class="flex-item shrink">Shrink 2</div>
+        <div class="flex-item align-self">Align Self Flex-End</div>
+    </div>
+</body>
+</html>
