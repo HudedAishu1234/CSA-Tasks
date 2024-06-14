@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,400;1,300;1,400;1,500&display=swap');
+*{
+    color:blueviolet;
+    font-family: "IBM Plex Serif", serif;
+    font-style: italic;
+    font-weight: 500;
+}
+
+#heading{
+    color:purple;
+    background-color: aquamarine;
+    font-size: 50px;
+
+
+}
+
+#heading2{
+    color:rgb(196, 105, 173);
+}
+
+.para{
+    color:rgb(203, 64, 108);
+    background-color: pink;
+
+}
+
+.paragraph{
+    color:blue
+}
+
+h3{
+    color:rgb(108, 26, 40);
+    
+}
+
+#heading{
+    color:blue;
+    letter-spacing: 40px;
+}
+
+#heading{
+     letter-spacing: 20px; 
+}
+
+.floral{
+    color:rgb(226, 43, 147)
+}
+
+
+#floral_world{
+    color:rgb(172, 21, 183)
+}
