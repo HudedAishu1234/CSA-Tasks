@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" /> 
+    <title>Bootstrap</title>
+</head>
+<body>
+    <div class="text-center" >
+        <h1>Bootstrap</h1>
+    </div>
+    <div>       
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            </div>
+            <div class="carousel-inner text-center">
+              <div class="carousel-item active">
+                <img src="https://images.pexels.com/photos/831057/pexels-photo-831057.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" class="w-75" alt="pic">
+              </div>
+              <div class="carousel-item">
+                <img src="https://images.pexels.com/photos/384430/pexels-photo-384430.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" class="w-75" alt="pic">
+              </div>
+              <div class="carousel-item">
+                <img src="https://images.pexels.com/photos/237321/pexels-photo-237321.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" class="w-75" alt="pic">
+              </div>
+              <div class="carousel-item">
+                <img src="https://images.pexels.com/photos/719632/pexels-photo-719632.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" class="w-75" alt="pic">  
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </div>
+
+
+    <div>
+        <!-- Button trigger modal -->
+        <div class="text-center m-3" >
+
+            <button type="button" class="btn btn-primary " data-bs-toggle="modal" data-bs-target="#exampleModal">
+    Show modal
+</button>
+</div>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Info about the websites</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <img src="https://images.pexels.com/photos/327394/pexels-photo-327394.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" height="100px" alt="pic">  
+
+            <p>A waterfall is a river or other body of water's steep fall over a rocky ledge into a plunge pool below. Waterfalls are also called cascades. The process of erosion, the wearing away of earth, plays an important part in the formation of waterfalls. Waterfalls themselves also contribute to erosion.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+    </div>
+
+    <form class="m-5" >
+        <input class="form-control" type="text" placeholder="Enter your name" />
+        <input class="form-control mt-2" type="email" placeholder="Enter your email" />
+        <button class="btn btn-primary" >Login</button>
+        <button class="btn btn-outline-dark" >Signup</button>
+    </form>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
+
+
+
+
+
+
+
