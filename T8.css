@@ -1,0 +1,59 @@
+#Flower{
+    height: 350px;
+
+}
+
+#heading{
+    text-align: left;
+}
+
+#para{
+    text-align: justify;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    word-spacing: 15px;
+    text-indent: 100px;
+    text-wrap: wrap;
+    text-decoration: underline;
+    text-shadow: 4px -4px 6px #00ffff;
+    line-height: 20px;
+
+    text-align-last: center;
+    column-count: 2;
+    column-gap: 50px;
+}
+
+#price{
+    text-decoration: line-through;
+}
+
+.links{
+    text-decoration: none;
+    color: blueviolet;
+}
+
+.q-1{
+    text-transform: capitalize;
+    letter-spacing: 10px;
+    text-shadow: 4px 5px 6px purple;
+    white-space: normal;
+}
+
+.q-2{
+    text-transform: lowercase;
+    letter-spacing: 5px;
+    text-shadow: 4px 6px 7px aqua;
+    text-align-last: center;
+}
+
+.container{
+     text-align: center;
+}
+
+#box{
+    height: 250px;
+    width: 250px;
+    background-color: rgb(248, 92, 167);
+    box-shadow: 4px 5px 6px aqua;
+
+}
