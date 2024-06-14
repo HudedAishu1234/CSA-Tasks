@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Functionalities</title>
+    <style>
+        #colorDiv {
+            width: 100px;
+            height: 100px;
+            background-color: red;
+        }
+    </style>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+        <h1>
+            Javascript Functionalities
+        </h1>
+
+        
+            <div id="countdown"></div>
+            <script>
+                let countdownNumber = 5;
+                const countdownElement = document.getElementById('countdown');
+        
+                function updateCountdown() {
+                    countdownElement.textContent = countdownNumber;
+                    countdownNumber--;
+        
+                    if (countdownNumber < 0) {
+                        clearInterval(countdownInterval);
+                    }
+                }
+        
+                const countdownInterval = setInterval(updateCountdown, 1000);
+                updateCountdown(); // Initial call to display the number immediately
+            </script>
+
+
+          <div id="colorDiv"></div>
+          <script>
+          const colorDiv = document.getElementById('colorDiv');
+          const colors = ['red', 'blue', 'green', 'yellow', 'purple'];
+          let colorIndex = 0;
+
+          function changeColor() {
+          colorDiv.style.backgroundColor = colors[colorIndex];
+          colorIndex = (colorIndex + 1) % colors.length;
+        }
+
+        setInterval(changeColor, 2000);
+        </script>
+
+        
+        <script src="Various js properties.js"></script>
+
+</body>
+</html>
