@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container" >
+        <h1>JAVA SCRIPT FUNCTIONALITIES</h1>
+    </div>
+
+    <p id="text">   This is a sample text.   </p>
+    <button onclick="modifyText()">Modify Text</button>
+
+    <script>
+        function modifyText() {
+            let textElement = document.getElementById("text");
+            let text = textElement.innerText;
+            text = text.trim().toUpperCase();
+            textElement.innerText = text;
+        }
+    </script>
+
+
+<p id="message">   Welcome to the JavaScript world!   </p>
+<button onclick="transformText()">Transform Text</button>
+<button onclick="displayNumberMethods()">Display Number Methods</button>
+<button onclick="displayObjectProperties()">Display Object Properties</button>
+
+<script>
+    function transformText() {
+        let messageElement = document.getElementById("message");
+        let message = messageElement.innerText;
+        message = message.trim().toUpperCase().split(" ").join("-");
+        messageElement.innerText = message;
+    }
+
+    function displayNumberMethods() {
+        let num = 9876.54321;
+        alert("toFixed(2): " + num.toFixed(2) +
+              "\ntoExponential(2): " + num.toExponential(2) +
+              "\ntoString(16): " + num.toString(16) +
+              "\nparseInt('1010', 2): " + parseInt('1010', 2) +
+              "\nparseFloat('123.45'): " + parseFloat('123.45'));
+    }
+
+    function displayObjectProperties() {
+        let car = {
+            make: "Toyota",
+            model: "Camry",
+            year: 2021
+        };
+        alert("Keys: " + Object.keys(car) +
+              "\nValues: " + Object.values(car) +
+              "\nEntries: " + JSON.stringify(Object.entries(car)));
+    }
+</script>
+
+    
+
+    <script src="js functionalities.js"></script>
+</body>
+</html>
