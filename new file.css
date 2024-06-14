@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img{
+    height: 200px;
+    width: 200px;
+}
+
+.items{
+    border: 1px solid black;
+    width: 200px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    text-align: center;
+    bottom: 1;
+    
+}
+
+
+.container{
+    display: flex;
+    height: 200vh;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    flex-wrap: wrap;
+    align-content: start;
+    
+
+    background-color: rgb(230, 89, 126);
+    position: absolute;
+    left: 100px;
+
+    z-index: 1;
+
+    opacity: 1;
+    text-align: center;
+    top: 50px
+
+
+
+
+}
