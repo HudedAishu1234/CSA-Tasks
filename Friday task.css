@@ -1,0 +1,11 @@
+div{
+    text-align: center;
+}
+
+.javascriptClass{
+    color: red;
+    background-color: black;
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
