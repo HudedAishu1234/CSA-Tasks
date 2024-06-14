@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Objects Functionalities</title>
+    <link rel="stylesheet" href="javascript features.css">
+</head>
+
+<body>
+    <div>
+        <h1>
+            Javascript
+        </h1>
+
+        <p>Using Math Methods to Change Button and Text Color with DOM</p>
+
+        <button id="colorButton">Change Color</button>
+    <p id="text">This is some text</p>
+
+    <script>
+        // Function to generate a random color
+        function getRandomColor() {
+            const r = Math.floor(Math.random() * 256);
+            const g = Math.floor(Math.random() * 256);
+            const b = Math.floor(Math.random() * 256);
+            return `rgb(${r}, ${g}, ${b})`;
+        }
+
+        // Get the button and text elements
+        const button = document.getElementById('colorButton');
+        const text = document.getElementById('text');
+
+        // Add event listener to the button
+        button.addEventListener('click', function() {
+            // Change button and text color
+            const newColor = getRandomColor();
+            button.style.backgroundColor = newColor;
+            text.style.color = newColor;
+        });
+    </script>
+
+    </div>
+
+    <script src="javascript features.js"></script>
+</body>
+
+</html>
