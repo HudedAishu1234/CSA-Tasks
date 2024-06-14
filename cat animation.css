@@ -1,0 +1,34 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+body{
+    background: #c25d5d;
+}
+
+
+.container {
+    position: relative;
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+  }
+  
+  .cat-icon {
+    width: 100px;
+    height: 100px;
+    background-image: url('./Images/cat-icon.png'); 
+    background-size: cover;
+    position: absolute;
+    top: 50%;
+    left: -100px;
+    transition: left 10s ease; 
+  }
+  
+  .container:hover .cat-icon {
+    left: calc(100% - 100px); 
+  }
